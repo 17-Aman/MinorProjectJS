@@ -1,0 +1,8 @@
+.main{
+    background-color: aqua;
+}
+body{
+    background-image: url("cal3.jpg") ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}

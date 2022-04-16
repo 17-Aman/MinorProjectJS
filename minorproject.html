@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="minorproject.css">
+
+    <title>Calculate age</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend><b>Age Calculator</b></legend>
+        <div class="main">
+            <form action="calc_age">
+                <div class="input">
+                    <label for="dob">Enter your date of birth : <input type="date" id="dob"</label><br><br>
+                        <button onclick="age()">click me!</button>
+                </div>
+            </form>
+        </div>
+    </fieldset>
+
+    <script>
+        function age() {
+            var a = document.getElementById("dob").value;
+            return a;
+        }
+    </script>
+</body>
+
+</html>
